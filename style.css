@@ -3,4 +3,29 @@
   margin 0;
   text-decoration: none;
   list-style: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logoContainer {
+  background-color: gray;
+}
+
+.mainNavigation {
+  background-color: lightgray;
+}
+
+.mainContainer {
+  background-color: yellow;
+}
+
+.sidebar {
+  background-color: #7d60a4;
+}
+
+.contentContainer {
+  background-color: #9c5f51;
+}
+
+.footer {
+  background-color: #6ba645;
 }
