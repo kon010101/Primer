@@ -8,24 +8,64 @@
 
 .logoContainer {
   background-color: gray;
+  width: 120px;
+  height: 80px;
+  margin: 10px;
 }
 
 .mainNavigation {
   background-color: lightgray;
+  border: 2px black solid;
+  height: 80px;
+  margin: 20px 10px;
+  text-align: center;
 }
 
 .mainContainer {
   background-color: yellow;
+  margin: 20px 10px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  grid-column-gap: 20px;
 }
 
 .sidebar {
   background-color: #7d60a4;
+  border: 2px black solid;
+  float: left;
+  height: 100%;
+  width: 100%;
 }
 
 .contentContainer {
   background-color: #9c5f51;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 20px;
 }
 
+.contentRow1 {
+  background-color: #b1993c;
+  border: 2px black solid;
+
+}
+
+.contentRow2 {
+  background-color: #b1993c;
+  border: 2px black solid;
+
+}
+
+.contentRow3 {
+  background-color: #b1993c;
+  border: 2px black solid;
+
+}
 .footer {
   background-color: #6ba645;
+  border: 2px black solid;
+  height: 80px;
+  margin: 20px 10px;
 }
