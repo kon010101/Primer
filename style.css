@@ -110,20 +110,41 @@
 
 .imageContainer {
   border: 2px black solid;
-  /* background-color: #f2f2f2; */
+  background-color: #f2f2f2;
   min-width: 350px;
+  max-width: 350px;
   /* padding: 10px; */
   margin-right: 10px;
   min-height: 270px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   box-shadow: 1px 1px 4px #000;
+  display: block;
 }
 
 .imageContainer a img {
   width: 350px;
   border-radius: 10px;
+}
+
+.imageContainer:hover {
+  background-color: green;
+}
+
+.line1 {
+  background-color: black;
+  width: 440px;
+  height: 2px;
+  transform: translate(-46px, 135px) rotate(37.6deg) ;
+
+}
+
+.line2{
+  background-color: black;
+  width: 440px;
+  height: 2px;
+  transform: translate(-46px, 132px) rotate(-37.6deg) ;
 }
 
 .article0 {
@@ -132,7 +153,13 @@
   min-height: 250px;
   padding: 10px;
   box-shadow: 1px 1px 4px #000;
+}
 
+.article0 a {
+  color: black;
+}
+.article0 a:hover {
+  color: lightblue;
 }
 
 .contentRow2 {
@@ -157,8 +184,26 @@
 }
 
 .footer {
-  background-color: #6ba645;
   border: 2px black solid;
   height: 80px;
   margin: 20px 10px;
+  text-align: center;
+  box-shadow: 1px 1px 4px #000;
+}
+
+.footerNavigation {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px 0 0 0;
+}
+
+.footerNavigation a {
+  margin: 0 40px;
+  color: black;
+}
+
+.footerNavigation a:hover {
+  color: #752d14;
+  border-radius: 3px;;
+  padding: 10px 0 10px 0;
 }
