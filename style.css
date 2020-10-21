@@ -1,31 +1,35 @@
-*{
+* {
   padding: 0;
   margin 0;
   text-decoration: none;
   list-style: none;
   font-family: 'Raleway', sans-serif;
   border-radius: 10px;
-
 }
 
 #pageDiv {
-  /* background-color: #659DBD; */
+  /* background-color: #dedede; */
   width: 100%;
   margin: 0 auto;
   max-width: 1600px;
 }
 
 .logoContainer {
-  background-color: gray;
-  width: 120px;
-  height: 80px;
-  margin: 10px;
+  /* background-color: gray; */
+  margin-left: 10px;
+  margin-top: 20px;
+  border: black 2px solid;
+  width: 250px;
+  display: flex;
+  box-shadow: 12px 12px 6px black;
 }
 
 .mainNavigation {
+  background-color: transparent;
+  background-image: linear-gradient(95deg, #007895 0%, #00a7ce 80%);
   border: black 2px solid;
   height: 80px;
-  margin: 20px 10px;
+  margin: 60px 10px 20px 10px;
   text-align: center;
   box-shadow: 1px 1px 4px #000;
   display: block;
@@ -35,8 +39,7 @@
   /* background-color: lightblue; */
 }
 
-
-.mainNavigation ul li{
+.mainNavigation ul li {
   float: left;
   padding: 25px 80px;
   font-size: 26px;
@@ -44,7 +47,7 @@
 }
 
 .mainNavigation ul li:hover {
-  background-color: lightgray;
+  background-color: #edf2f3;
   border-radius: 50%;
 }
 
@@ -57,7 +60,6 @@
   height: 100%
 }
 
-
 .mainContainer {
   /* background-color: yellow; */
   margin: 20px 10px;
@@ -68,7 +70,8 @@
 }
 
 .sidebar {
-  /* background-color: #7d60a4; */
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #007895 20%, #00a7ce 80%);
   border: black 2px solid;
   width: 100%;
   box-shadow: 1px 1px 4px #000;
@@ -88,10 +91,9 @@
 }
 
 .sidebar li:hover {
-  background-color: #c9c9c9;
+  background-color: #edf2f3;
   border-radius: 2px;
 }
-
 
 .contentContainer {
   /* background-color: #9c5f51; */
@@ -110,7 +112,7 @@
 
 .imageContainer {
   border: 2px black solid;
-  background-color: #f2f2f2;
+  background-color: #edf2f3;
   min-width: 350px;
   max-width: 350px;
   /* padding: 10px; */
@@ -129,22 +131,25 @@
 }
 
 .imageContainer:hover {
-  background-color: green;
+  background-color: #007895;
+}
+
+.imageContainer:hover .line {
+  background-color: #edf2f3;
 }
 
 .line1 {
-  background-color: black;
+  background-color: #007895;
   width: 440px;
   height: 2px;
-  transform: translate(-46px, 135px) rotate(37.6deg) ;
-
+  transform: translate(-46px, 135px) rotate(37.6deg);
 }
 
-.line2{
-  background-color: black;
+.line2 {
+  background-color: #007895;
   width: 440px;
   height: 2px;
-  transform: translate(-46px, 132px) rotate(-37.6deg) ;
+  transform: translate(-46px, 132px) rotate(-37.6deg);
 }
 
 .article0 {
@@ -158,8 +163,9 @@
 .article0 a {
   color: black;
 }
+
 .article0 a:hover {
-  color: lightblue;
+  color: #007895;
 }
 
 .contentRow2 {
@@ -173,7 +179,6 @@
   margin-left: 10px;
   margin-right: 0px;
   align-items: center;
-
 }
 
 .contentRow3 {
@@ -189,6 +194,8 @@
   margin: 20px 10px;
   text-align: center;
   box-shadow: 1px 1px 4px #000;
+  background-color: transparent;
+  background-image: linear-gradient(95deg, #007895 0%, #00a7ce 80%);
 }
 
 .footerNavigation {
@@ -203,7 +210,8 @@
 }
 
 .footerNavigation a:hover {
-  color: #752d14;
-  border-radius: 3px;;
+  color: #007895;
+  border-radius: 3px;
+  ;
   padding: 10px 0 10px 0;
 }
